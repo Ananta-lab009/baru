@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WisatainAja.id</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* 3. TAMBAHKAN INI UNTUK EFEK SCROLL HALUS */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff;
+    }
+    .hero-section {
+      background-color: #6c757d;
+      color: #fff;
+      padding: 100px 0;
+    }
+    .login-section {
+      padding: 50px 0;
+    }
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Open Trip Terbaikmu!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>WisatainAja.id</h1>
+          <p>Discover the world with us.</p>
+          <a href="#" class="btn btn-primary">Sign Up</a>
+          <a href="#login-section" class="btn btn-secondary">Login</a>
+        </div>
+        <div class="col-md-6">
+          <img src="..." class="img-fluid" alt="Gambar pegunungan">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="login-section" id="login-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2>Login</h2>
+          <p>Enter your credentials to continue.</p>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <a href="#" class="form-check-label" for="exampleCheck1">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="placeholder-section text-center py-5">
+      <div class="container">
+          <img src="..." class="img-fluid" alt="Gambar peta" style="max-width: 400px; margin-bottom: 2rem;">
+          <div class="border p-4">
+              <p>choose between light and dark mode based on your preference for a more comfortable user interface.</p>
+              <div class="d-flex justify-content-center">
+                  <span class="p-1">•</span>
+                  <span class="p-1">•</span>
+                  <span class="p-1">•</span>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="text-white">Privacy Policy</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="text-white">Terms of Service</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="text-white">Contact Support</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="text-white">Follow our Social Media</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
